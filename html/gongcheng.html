@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>易高-工程案例</title>
+    <style type="text/css">
+        body{
+            margin:0px;
+            padding:0px;
+            background: white;
+            max-width: 1680px;
+            position: relative;
+        }
+        article{
+            max-width: 1680px;
+            max-height: 1000px;
+        }
+        header{
+            position: relative;
+        }
+        nav{
+            position: absolute;
+            float: left;
+            width: 100%;
+            height: 40px;
+            background: #181818;
+            margin: 120px 0 0 0;
+            padding: 0;
+        }
+        header img{
+            position: absolute;
+            padding: 20px 120px;
+        }
+        header table tr td img{
+            width: 210px;
+            height: 70px;
+        }
+        header table{
+            position: absolute;
+            margin-top: 35px;
+            margin-left: 850px;
+        }
+        header table td{
+            font-size: 10px;
+            font-family: 微软雅黑;
+        }
+        header table td a{
+            font-size: 20px;
+            font-family: 微软雅黑;
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+        nav ul{
+            float: left;
+            margin: 0px;
+            padding: 0;
+            max-width: 1680px;
+            list-style: none;
+        }
+        nav ul li{
+            display: inline;
+        }
+        nav ul li a{
+            float: left;
+            padding: 11px 20px;
+            margin-left: 10px;
+            font-size: 14px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            font-family: Tahoma;
+            outline: none;
+        }
+        nav ul li a:hover{
+            background: blue;
+        }
+
+        form table tr td{
+            font-family: 楷体;
+        }
+        #all{
+            height: auto;
+            width: 1200px;
+        }
+        #top{
+            height: auto;
+            width: 1200px;
+        }
+        #first_photo{
+            height: auto;
+            width: 1200px;
+            position: absolute;
+            margin: 200px auto;
+        }
+        #section{
+            width: 1200px;
+            height: auto;
+        }
+        #section-left{
+            width: 390px;
+            height: auto;
+            float: left;
+        }
+        #section-left-photo1{
+            width: auto;
+            height: auto;
+            padding-left: 70px;
+        }
+        #navigation {
+            width:250px;
+            height: auto;
+            font-family: 楷体;
+            font-size:20px;
+            text-align:left;
+        }
+        #navigation ul {
+            list-style-type: none;
+            margin:0px;
+            padding:0px;
+        }
+        #navigation li {
+            border-bottom:1px solid #9F9FED;	/* 添加下划线 */
+        }
+        #navigation li a{
+            display:block;
+            height:40px;
+            padding:15px 5px 5px 0.5em;
+            text-decoration:none;
+            border-right:1px solid silver;		/* 右侧阴影 */
+        }
+        #navigation li a:link, #navigation li a:visited{
+            background-color:silver;
+            color:#FFFFFF;
+        }
+        #navigation li a:hover{					/* 鼠标经过时 */
+            background-color:silver;			/* 改变背景色 */
+            color:red;					/* 改变文字颜色 */
+        }
+        #section-left-photo2{
+            width: auto;
+            height: auto;
+            padding-left: 70px;
+        }
+        #sectioon-left-bottom{
+            width: auto;
+            height: auto;
+        }
+        #section-right{
+            width: 800px;
+            height: auto;
+            float: right;
+        }
+        #n {
+            font-family:Arial;
+            font-size:14px;
+            text-align:center;
+        }
+        #n ul {
+            list-style-type:none;				/* 不显示项目符号 */
+            margin:0px;
+            padding:0px;
+        }
+        #n li {
+            float:left;
+        }
+        #n li a{
+            width:70px;
+            display:block;
+            height:1em;
+            padding:5px 5px 5px 0.5em;
+            text-decoration:none;
+        }
+        #n li a:link, #n li a:visited{
+            color:silver;
+        }
+        #n li a:hover{
+            color:red;
+        }
+        #section-right-photo1{
+            padding-top: 60px;
+        }
+        #section-right-table1{
+            padding-top: 40px;
+        }
+        #section-right-bottom{
+            width: 800px;
+            height: auto;
+            padding-top: 50px;
+            overflow: hidden;
+        }
+        #a1{
+            width: auto;
+            height:auto;
+            padding-right: 500px;
+        }
+        #a2{
+            width: auto;
+            height: auto;
+            padding-right: 200px;
+            float: right;
+        }
+        footer{
+            position: absolute;
+            padding: 15px;
+            width: 97%;
+            height: 80px;
+            color: white;
+            margin: 1000px 0 0 0;
+            font-size: 14px;
+            text-align: center;
+            background: #565656;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img src="../images/logo.jpg" alt="易高在线"/>
+    <table width="210">
+        <tr>
+            <td rowspan="2" style="background: url(../images/call.jpg)" width="50"></td>
+            <td width="160">全国资讯热线</td>
+        </tr>
+        <tr>
+            <td><a href="#">400-675-0871</a></td>
+        </tr>
+    </table>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="易高首页" target="_blank" style="background: blue;margin-left: 100px;">易高首页</a></li>
+            <li><a href="xiufu.html" title="天补修复" target="_blank">天补修复</a></li>
+            <li><a href="product.html" title="建筑产品" target="_blank">建筑产品</a></li>
+            <li><a href="anli.html" title="工程案例" target="_blank">工程案例</a><>
+            <li><a href="Guanyu.html" title="关于易高" target="_blank">关于易高</a></li>
+        </ul>
+    </nav>
+</header>
+    <div id="all">
+        <div id="first_photo">
+            <img src="../images/首图片.jpg" width="1200px">
+        </div>
+        <div id="section">
+            <div id="section-left">
+                <div id="section-left-photo1">
+                    <img src="../images/案例中心截图.JPG">
+                </div>
+                <div id="navigation">
+                    <ul>
+                        <li><a href="#">&nbsp;&nbsp;•&nbsp;&nbsp;地产商&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                        <li><a href="#">&nbsp;&nbsp;•&nbsp;&nbsp;Contact us&nbsp;&nbsp;></a></li>
+                        <li><a href="#">&nbsp;&nbsp;•&nbsp;&nbsp;Web Dev&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                        <li><a href="#">&nbsp;&nbsp;•&nbsp;&nbsp;Design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                        <li><a href="#">&nbsp;&nbsp;•&nbsp;&nbsp;Map&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></a></li>
+                    </ul>
+                </div>
+                <div id="section-left-photo2">
+                    <img src="../images/左下截图.JPG">
+                </div>
+                <div id="sectioon-left-bottom">
+                    <form>
+                        <table border="0" align="center" width="250" height="500" align="center" class="a">
+                            <tr>
+                                <td>
+                                    <font color="red" size="3" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南易高新型砂浆</font><br>
+                                    <font color="#a9a9a9" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：400-675-0871</font><br>
+                                    <font color="#a9a9a9" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传真：0871-67374761</font><br>
+                                    <font color="#a9a9a9" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱：easy-goal@easy-goal.com</font><br>
+                                    <font color="#a9a9a9" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：云南省昆明市西山区大商汇建材城B区50栋7-9号</font>
+                                </td>
+                            </tr>
+                            <tr align="center">
+                                <td>
+                                    <img src="../images/二维码.JPG"><br><br>
+                                    <font size="2">扫一扫&nbsp;关注家装助手-易高小匠</font>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div id="section-right">
+                  <div id="n">
+                      <ul>
+                          <li><a href="#">首例&nbsp;></a></li>
+                          <li><a href="#">案例中心&nbsp;></a></li>
+                          <li><a href="#">地产商</a></li>
+                      </ul>
+                  </div>
+                  <div id="section-right-photo1">
+                      <img src="../images/右一.jpg"><br/><br/>
+                      <h2 style="border-bottom: 1px dashed red">地产类.合作伙伴案例</h2>
+                  </div>
+                  <div id="section-right-table1">
+                      <table border="0">
+                          <tr>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/银海地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/实力集团.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/俊发地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/万科.jpg" border="1px soild black"></a></td>
+                          </tr>
+                          <tr>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/保利地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/龙湖地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/官房集团.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/北客置业.jpg" border="1px soild black"></a></td>
+                          </tr>
+                          <tr>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/云南碧鸡集团.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/恒大地产集团.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/集成广福房地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/江东集团.jpg" border="1px soild black"></a></td>
+                          </tr>
+                          <tr>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/龙宇地产.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/诺仕达集团.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/融科智地.jpg" border="1px soild black"></a></td>
+                              <td width="200px" height="60px"><a href="#"><img src="../images/星耀集团.jpg" border="1px soild black"></a></td>
+                          </tr>
+                      </table>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a>地址/Add：云南省昆明市西山区大商汇建材城B区50栋7—9号</a><br/>
+        <a>电话/Tel：400-675-0871</a><br/>
+        <a>邮箱：easy-goal@easy-gaol.com</a><br/>
+        <a>Copyright&copy;2016.易高天补 All Rights Reserved.</a>
+    </footer>
+</body>
+</html>
